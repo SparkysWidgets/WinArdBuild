@@ -218,7 +218,7 @@ leophi.bootloader.low_fuses=0xff
 leophi.bootloader.high_fuses=0xd8
 leophi.bootloader.extended_fuses=0xcb
 leophi.bootloader.path=caterina-LeoPhi
-leophi.bootloader.file=Caterina-Leophi.hex
+leophi.bootloader.file=Caterina-LeoPhi.hex
 leophi.bootloader.unlock_bits=0x3F
 leophi.bootloader.lock_bits=0x2F
 leophi.build.mcu=atmega32u4
@@ -228,6 +228,26 @@ leophi.build.pid=0x6016
 leophi.build.core=arduino
 leophi.build.variant=leophi
 
+##############################################################
+
+Leoec.name=Leoec
+Leoec.upload.protocol=avr109
+Leoec.upload.maximum_size=28672
+Leoec.upload.speed=57600
+Leoec.upload.disable_flushing=true
+Leoec.bootloader.low_fuses=0xff
+Leoec.bootloader.high_fuses=0xd8
+Leoec.bootloader.extended_fuses=0xcb
+Leoec.bootloader.path=caterina-LeoEc
+Leoec.bootloader.file=Caterina-LeoEc.hex
+Leoec.bootloader.unlock_bits=0x3F
+Leoec.bootloader.lock_bits=0x2F
+Leoec.build.mcu=atmega32u4
+Leoec.build.f_cpu=16000000L
+Leoec.build.vid=0x0DA0
+Leoec.build.pid=0x6017
+Leoec.build.core=arduino
+Leoec.build.variant=leoec
 
 ##############################################################
 

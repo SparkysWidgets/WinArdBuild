@@ -796,7 +796,7 @@
  812 024e 81BD      		out 65-32,r24
  813               	.LSM125:
  814               	/* #APP */
- 815               	 ;  208 "c:/winavr-20081205/lib/gcc/../../avr/include/avr/eeprom.h" 1
+ 815               	 ;  208 "c:/ardupdate/arduino/hardware/tools/avr/lib/gcc/../../avr/include/avr/eeprom.h" 1
  816               		/* START EEPROM READ CRITICAL SECTION */ 
  817 0250 F89A      		sbi 31, 0 
  818 0252 80B5      		in r24, 32 
@@ -954,7 +954,7 @@
  970 02fe 20BD      		out 64-32,r18
  971               	.LSM143:
  972               	/* #APP */
- 973               	 ;  315 "c:/winavr-20081205/lib/gcc/../../avr/include/avr/eeprom.h" 1
+ 973               	 ;  324 "c:/ardupdate/arduino/hardware/tools/avr/lib/gcc/../../avr/include/avr/eeprom.h" 1
  974               		/* START EEPROM WRITE CRITICAL SECTION */
  975 0300 0FB6      		in	r0, 63		
  976 0302 F894      		cli				
@@ -1176,7 +1176,7 @@
  1192 041e 20BD      		out 64-32,r18
  1193               	.LSM169:
  1194               	/* #APP */
- 1195               	 ;  315 "c:/winavr-20081205/lib/gcc/../../avr/include/avr/eeprom.h" 1
+ 1195               	 ;  324 "c:/ardupdate/arduino/hardware/tools/avr/lib/gcc/../../avr/include/avr/eeprom.h" 1
  1196               		/* START EEPROM WRITE CRITICAL SECTION */
  1197 0420 0FB6      		in	r0, 63		
  1198 0422 F894      		cli				
@@ -1231,7 +1231,7 @@
  1247 0472 81BD      		out 65-32,r24
  1248               	.LSM175:
  1249               	/* #APP */
- 1250               	 ;  208 "c:/winavr-20081205/lib/gcc/../../avr/include/avr/eeprom.h" 1
+ 1250               	 ;  208 "c:/ardupdate/arduino/hardware/tools/avr/lib/gcc/../../avr/include/avr/eeprom.h" 1
  1251               		/* START EEPROM READ CRITICAL SECTION */ 
  1252 0474 F89A      		sbi 31, 0 
  1253 0476 80B5      		in r24, 32 
@@ -1745,31 +1745,31 @@
  1880               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Caterina.c
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:2      *ABS*:0000003f __SREG__
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:3      *ABS*:0000003e __SP_H__
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:4      *ABS*:0000003d __SP_L__
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:5      *ABS*:00000034 __CCP__
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:21     .text.StartSketch:00000000 StartSketch
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:71     .text.LEDPulse:00000000 LEDPulse
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:2      *ABS*:0000003f __SREG__
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:3      *ABS*:0000003e __SP_H__
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:4      *ABS*:0000003d __SP_L__
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:5      *ABS*:00000034 __CCP__
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:21     .text.StartSketch:00000000 StartSketch
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:71     .text.LEDPulse:00000000 LEDPulse
                             *COM*:00000002 LLEDPulse
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:114    .text.__vector_17:00000000 __vector_17
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1743   .bss:00000000 TxLEDPulse
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1749   .bss:00000002 RxLEDPulse
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1755   .bss:00000004 Timeout
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:207    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:268    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:342    .text.CDC_Task:00000000 CDC_Task
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:114    .text.__vector_17:00000000 __vector_17
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1743   .bss:00000000 TxLEDPulse
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1749   .bss:00000002 RxLEDPulse
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1755   .bss:00000004 Timeout
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:207    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:268    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:342    .text.CDC_Task:00000000 CDC_Task
                              .bss:00000006 CurrAddress
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1404   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1770   .data:0000000d LineEncoding
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1480   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1518   .text.SetupHardware:00000000 SetupHardware
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1601   .text.main:00000000 main
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1761   .data:00000009 bootKey
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1780   .data:00000014 RunBootloader
-C:\Users\Ryan\AppData\Local\Temp/ccLLFG1Q.s:1766   .data:0000000b bootKeyPtr
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1404   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1770   .data:0000000d LineEncoding
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1480   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1518   .text.SetupHardware:00000000 SetupHardware
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1601   .text.main:00000000 main
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1761   .data:00000009 bootKey
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1780   .data:00000014 RunBootloader
+C:\Users\Ryan\AppData\Local\Temp/ccMFz3iK.s:1766   .data:0000000b bootKeyPtr
 
 UNDEFINED SYMBOLS
 __do_copy_data

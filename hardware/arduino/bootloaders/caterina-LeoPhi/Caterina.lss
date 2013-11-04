@@ -17,15 +17,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   6 .debug_abbrev 000011ad  00000000  00000000  0000643f  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   00004263  00000000  00000000  000075ec  2**0
+  7 .debug_line   00004373  00000000  00000000  000075ec  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  00000430  00000000  00000000  0000b850  2**2
+  8 .debug_frame  00000430  00000000  00000000  0000b960  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    000020a0  00000000  00000000  0000bc80  2**0
+  9 .debug_str    000020a0  00000000  00000000  0000bd90  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    00002953  00000000  00000000  0000dd20  2**0
+ 10 .debug_loc    00002953  00000000  00000000  0000de30  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000388  00000000  00000000  00010673  2**0
+ 11 .debug_ranges 00000388  00000000  00000000  00010783  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -978,7 +978,7 @@ __ATTR_PURE__ static __inline__ uint8_t eeprom_read_byte (const uint8_t *__p)
     7468:	f9 99       	sbic	0x1f, 1	; 31
     746a:	fe cf       	rjmp	.-4      	; 0x7468 <CDC_Task+0x21e>
 #if E2END <= 0xFF
-    EEARL = (uint8_t)__p;
+    EEARL = (uint8_t)(uint16_t)__p;
 #else
     EEAR = (uint16_t)__p;
     746c:	d8 01       	movw	r26, r16
@@ -1405,7 +1405,7 @@ __ATTR_PURE__ static __inline__ uint8_t eeprom_read_byte (const uint8_t *__p)
     767a:	f9 99       	sbic	0x1f, 1	; 31
     767c:	fe cf       	rjmp	.-4      	; 0x767a <CDC_Task+0x430>
 #if E2END <= 0xFF
-    EEARL = (uint8_t)__p;
+    EEARL = (uint8_t)(uint16_t)__p;
 #else
     EEAR = (uint16_t)__p;
     767e:	d8 01       	movw	r26, r16

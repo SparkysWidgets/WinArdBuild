@@ -61,6 +61,8 @@ const u16 STRING_IPRODUCT[17] = {
 	'L','i','l','y','P','a','d','U','S','B',' ',' ',' ',' ',' ',' '
 #elif USB_PID == 0x6016	//Added for LeoPhi Support
 	'L','e','o','P','h','i',' ','U','S','B',' ','p','H',' ',' ',' '
+#elif USB_PID == 0x6017	//Added for LeoPhi Support
+	'L','e','o','E','c',' ',' ','U','S','B',' ','e','C',' ',' ',' '
 #else
 	'U','S','B',' ','I','O',' ','B','o','a','r','d',' ',' ',' ',' '
 #endif
@@ -74,6 +76,8 @@ const u16 STRING_IMANUFACTURER[12] = {
 	'S','p','a','r','k','F','u','n',' ',' ',' '
 #elif USB_VID == 0x1d50		//Added Openmoko, inc Vendor ID as many projects use this
 	'O','p','e','n','m','o','k','o','I','n','c'
+#elif USB_VID == 0x0DA0		//Added Sparkys (was Danger Research, sorry USB-IF you leave us no choice)
+	'S','p','a','r','k','y','s',' ',' ',' ',' '
 #else
 	'U','n','k','n','o','w','n',' ',' ',' ',' '
 #endif

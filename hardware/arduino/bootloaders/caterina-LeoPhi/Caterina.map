@@ -1,10 +1,10 @@
 Archive member included because of file (symbol)
 
-c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
-                              c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o (exit)
-c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                              c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o (exit)
+c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
                               Caterina.o (__do_copy_data)
-c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
                               Caterina.o (__do_clear_bss)
 
 Allocating common symbols
@@ -18,8 +18,8 @@ USB_ControlRequest  0x8               LUFA-111009/LUFA/Drivers/USB/Core/USBTask.
 
 Discarded input sections
 
- .data          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
- .bss           0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .data          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .bss           0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
  .text          0x00000000        0x0 Caterina.o
  .text          0x00000000        0x0 Descriptors.o
  .bss           0x00000000        0x0 Descriptors.o
@@ -129,18 +129,18 @@ Discarded input sections
                 0x00000000        0x0 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
  .text.USB_ProcessHIDReport
                 0x00000000        0x0 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
- .text          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
- .data          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
- .bss           0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
- .text          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
- .data          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
- .bss           0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
- .text          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
- .data          0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
- .bss           0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00000000        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
 
 Memory Configuration
 
@@ -156,7 +156,7 @@ signature        0x00840000         0x00000400         rw !x
 Linker script and memory map
 
 Address of section .data set to 0x800100
-LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+LOAD c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
 LOAD Caterina.o
 LOAD Descriptors.o
 LOAD LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
@@ -174,10 +174,10 @@ LOAD LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
 LOAD LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
 LOAD LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 Address of section .text set to 0x7000
-LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libm.a
-LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
-LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a
-LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+LOAD c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libm.a
+LOAD c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+LOAD c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
 
 .hash
  *(.hash)
@@ -271,7 +271,7 @@ LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
 
 .text           0x00007000      0xf1a
  *(.vectors)
- .vectors       0x00007000       0xac c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .vectors       0x00007000       0xac c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
                 0x00007000                __vectors
                 0x00007000                __vector_default
  *(.vectors)
@@ -296,20 +296,20 @@ LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x000070ac        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .init0         0x000070ac        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
                 0x000070ac                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x000070ac        0xc c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .init2         0x000070ac        0xc c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x000070b8       0x16 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .init4         0x000070b8       0x16 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
                 0x000070b8                __do_copy_data
- .init4         0x000070ce       0x10 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .init4         0x000070ce       0x10 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
                 0x000070ce                __do_clear_bss
  *(.init4)
  *(.init5)
@@ -321,10 +321,10 @@ LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000070de        0x4 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .init9         0x000070de        0x4 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
  *(.init9)
  *(.text)
- .text          0x000070e2        0x2 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+ .text          0x000070e2        0x2 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
                 0x000070e2                __vector_38
                 0x000070e2                __vector_22
                 0x000070e2                __vector_28
@@ -442,7 +442,7 @@ LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
                 0x00007ef2                USB_USBTask
                 0x00007f16                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00007f16        0x0 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .fini9         0x00007f16        0x0 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
                 0x00007f16                exit
                 0x00007f16                _exit
  *(.fini9)
@@ -463,7 +463,7 @@ LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00007f16        0x4 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .fini0         0x00007f16        0x4 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
  *(.fini0)
                 0x00007f1a                _etext = .
 
@@ -658,24 +658,24 @@ LOAD c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
  .debug_abbrev  0x00000e69      0x15d LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
  .debug_abbrev  0x00000fc6      0x1e7 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 
-.debug_line     0x00000000     0x4263
+.debug_line     0x00000000     0x4373
  *(.debug_line)
- .debug_line    0x00000000      0xb19 Caterina.o
- .debug_line    0x00000b19      0x199 Descriptors.o
- .debug_line    0x00000cb2      0x136 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
- .debug_line    0x00000de8      0x41f LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
- .debug_line    0x00001207       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
- .debug_line    0x0000122b       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
- .debug_line    0x0000124f      0x35b LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
- .debug_line    0x000015aa      0x4d3 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
- .debug_line    0x00001a7d     0x1865 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
- .debug_line    0x000032e2       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
- .debug_line    0x00003306      0x24d LUFA-111009/LUFA/Drivers/USB/Core/ConfigDescriptor.o
- .debug_line    0x00003553      0x4f3 LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
- .debug_line    0x00003a46       0x89 LUFA-111009/LUFA/Drivers/USB/Core/Events.o
- .debug_line    0x00003acf       0x24 LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
- .debug_line    0x00003af3      0x1c0 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
- .debug_line    0x00003cb3      0x5b0 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_line    0x00000000      0xb42 Caterina.o
+ .debug_line    0x00000b42      0x1c3 Descriptors.o
+ .debug_line    0x00000d05      0x136 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_line    0x00000e3b      0x434 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_line    0x0000126f       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_line    0x00001293       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_line    0x000012b7      0x370 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_line    0x00001627      0x4e8 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_line    0x00001b0f     0x188f LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_line    0x0000339e       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_line    0x000033c2      0x262 LUFA-111009/LUFA/Drivers/USB/Core/ConfigDescriptor.o
+ .debug_line    0x00003624      0x508 LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_line    0x00003b2c       0x89 LUFA-111009/LUFA/Drivers/USB/Core/Events.o
+ .debug_line    0x00003bb5       0x24 LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_line    0x00003bd9      0x1d5 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_line    0x00003dae      0x5c5 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 
 .debug_frame    0x00000000      0x430
  *(.debug_frame)
@@ -849,13 +849,13 @@ USB_SetHIDReportItemInfo                          LUFA-111009/LUFA/Drivers/USB/C
 USB_USBTask                                       LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
                                                   LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
                                                   Caterina.o
-__bad_interrupt                                   c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__bss_end                                         c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
-__bss_start                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
-__data_end                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
-__data_load_start                                 c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
-__data_start                                      c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
-__do_clear_bss                                    c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__bad_interrupt                                   c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__bss_end                                         c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
                                                   LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
                                                   LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
                                                   LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
@@ -872,7 +872,7 @@ __do_clear_bss                                    c:/winavr-20081205/bin/../lib/
                                                   LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
                                                   Descriptors.o
                                                   Caterina.o
-__do_copy_data                                    c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__do_copy_data                                    c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
                                                   LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
                                                   LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
                                                   LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
@@ -889,60 +889,60 @@ __do_copy_data                                    c:/winavr-20081205/bin/../lib/
                                                   LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
                                                   Descriptors.o
                                                   Caterina.o
-__heap_end                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__init                                            c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__stack                                           c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_1                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__heap_end                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__init                                            c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__stack                                           c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_1                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
 __vector_10                                       LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                                                  c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_11                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_12                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_13                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_14                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_15                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_16                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+                                                  c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
 __vector_17                                       Caterina.o
-                                                  c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_18                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_19                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_2                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_20                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_21                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_22                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_23                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_24                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_25                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_26                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_27                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_28                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_29                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_3                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_30                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_31                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_32                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_33                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_34                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_35                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_36                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_37                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_38                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_39                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_4                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_40                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_41                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_42                                       c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_5                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_6                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_7                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_8                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_9                                        c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vector_default                                  c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-__vectors                                         c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
-_exit                                             c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                                                  c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+_exit                                             c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
 bootKey                                           Caterina.o
 bootKeyPtr                                        Caterina.o
 eeprom_update_byte                                LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-exit                                              c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
-                                                  c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+exit                                              c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                                                  c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
 main                                              Caterina.o
-                                                  c:/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o
+                                                  c:/ardupdate/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32u4.o

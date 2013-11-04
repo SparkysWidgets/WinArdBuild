@@ -194,7 +194,9 @@ const USB_Descriptor_String_t ProductString =
 	.Header                 = {.Size = USB_STRING_LEN(16), .Type = DTYPE_String},
 
 	#if DEVICE_PID == 0x0016
-	.UnicodeString          = L"LeoPhi pH       " 
+	.UnicodeString          = L"LeoPhibootloader"
+	#elif DEVICE_PID == 0x0017
+	.UnicodeString          = L"LeoEc bootloader" 
 	#elif DEVICE_PID == 0x0036
 	.UnicodeString          = L"Arduino Leonardo" 
 	#elif DEVICE_PID == 0x0037
@@ -214,6 +216,8 @@ const USB_Descriptor_String_t ManufNameString =
 	.UnicodeString			= L"Arduino LLC"
 	#elif DEVICE_VID == 0x1D50
 	.UnicodeString          = L"OpenmokoInc"
+	#elif DEVICE_VID == 0x0DA0
+	.UnicodeString          = L"Sparkys    "
 	#else
 	.UnicodeString			= L"Unknown    "
 	#endif
